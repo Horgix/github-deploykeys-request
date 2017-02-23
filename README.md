@@ -70,11 +70,11 @@ Solutions I see right now are:
 - Allow the same Deploy Key to be used on multiple projects. I guess this will not be possible since it seems it's an intended behavior, but I'm still interested in the details of the rationale behind this decision (which is probably a good one)
 - Allow OAuth tokens to be generated without an associated user, just as a service account that can access an Organization's projects
 
-I would definitely like to avoid the "real Github account" with username/password.
+I would definitely like to avoid the "real Github account" with username/password, for obvious reasons.
 
 Thanks for your time.
 
-[1] https://gist.github.com/jexchan/2351996
-[2] https://github.com/git/git/commit/3c8ede3ff312134e84d1b23a309cd7d2a7c98e9c
-[3] https://github.com/git/git/commit/39942766ab9bc738f49f93d4c8ea68ffbaadc305
-[4] https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
+- [1] https://gist.github.com/jexchan/2351996
+- [2] https://github.com/git/git/commit/3c8ede3ff312134e84d1b23a309cd7d2a7c98e9c
+- [3] https://github.com/git/git/commit/39942766ab9bc738f49f93d4c8ea68ffbaadc305
+- [4] https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
