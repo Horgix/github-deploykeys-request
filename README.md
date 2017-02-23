@@ -12,7 +12,7 @@ I have some questions regarding the Deploy Keys and OAuth tokens, in the context
 
 ## Read-only cloning from a service
 
-Accessing a repository content as a service should do it through a *Deploy Key* added to the project. And it works perfectly fine.
+Accessing a repository content as a service be done through a *Deploy Key* added to the project. And it works perfectly fine.
 
 ## The limitation of Deploy Keys
 
