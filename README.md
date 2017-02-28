@@ -78,3 +78,56 @@ Thanks for your time.
 - [2] https://github.com/git/git/commit/3c8ede3ff312134e84d1b23a309cd7d2a7c98e9c
 - [3] https://github.com/git/git/commit/39942766ab9bc738f49f93d4c8ea68ffbaadc305
 - [4] https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
+
+# Follow ups / answers
+
+## First Github reply
+
+> Thanks for hanging in there! After speaking with the team about this, I'd like to share their input with you here. From your document, you said:
+> 
+>     Allow OAuth tokens to be generated without an associated user, just as a service account that can access an Organization's projects
+>     I would definitely like to avoid the "real Github account" with username/password, for obvious reasons.
+> 
+> We're not 100% sure about the reasons you're referring to. Could you help us understand what those reasons are?
+> 
+> If your server needs to access multiple repositories, you can choose to create a new GitHub account and attach an SSH key that will be used exclusively for automation. Since this GitHub account won't be used by a human, it's called a machine user. You can then add the machine user as collaborator or add the machine user to a team with access to the repositories it needs to manipulate. Our team wrote more about this here:
+> 
+> https://developer.github.com/guides/managing-deploy-keys/#machine-users
+> 
+> Would such an approach using machine users work for you? If not, could you tell us more about why that wouldn't work for your use case? Any information there would help. Thanks!
+
+## Reaction
+
+> On Mon, Feb 27, 2017 at 5:56 PM, XYZ (GitHub Staff)
+> <support@github.com> wrote:
+> >> I would definitely like to avoid the "real Github account" with username/password, for obvious reasons.
+> > We're not 100% sure about the reasons you're referring to. Could you help us understand what those reasons are?
+> 
+> Sorry, I shouldn't have made the assumption that it was obvious, my bad.
+> 
+>  I was refering to the reason for which I believe Deploy Key notion
+> exist at all in Github and other software: having a "real" user
+> account, even if it's only used by a machine, implies that the
+> password for this user has to be remembered, stored (securely), and
+> that if for whatever reason it is ever leaked (chances increased by
+> the fact that we have to store it somewhere), it's much harder to
+> renew it (considering the account has been compromised): we have to
+> remove the user, create a new one, assign it to projects again,
+> generate new key and assign it to the user. And the main pain in that
+> is the 2 first steps : manually remove the user and create it (since
+> bot account creations are forbidden according to the link you gave
+> me).
+> 
+> - show quoted text -
+> 
+> 
+> Well, that's what I itended to do if you didn't come up with another solution.
+> It will do the job for sure, but I wish there was a cleaner solution
+> to this, i.e. exactly what Deploy Keys are now in Github, but with the
+> possibility to assign them to multiple projects.
+> 
+> If you are promoting the so called "machine-users" way, may I ask then
+> what would be the purpose of the Deploy Keys if they are not intended
+> to avoid the downside of machine-users I mentionned ?
+> 
+> All the best,
