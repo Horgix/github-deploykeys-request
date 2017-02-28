@@ -101,6 +101,7 @@ Thanks for your time.
 > On Mon, Feb 27, 2017 at 5:56 PM, XYZ (GitHub Staff)
 > <support@github.com> wrote:
 > >> I would definitely like to avoid the "real Github account" with username/password, for obvious reasons.
+>
 > > We're not 100% sure about the reasons you're referring to. Could you help us understand what those reasons are?
 > 
 > Sorry, I shouldn't have made the assumption that it was obvious, my bad.
