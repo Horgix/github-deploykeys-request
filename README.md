@@ -132,5 +132,3 @@ Thanks for your time.
 > If you are promoting the so called "machine-users" way, may I ask then
 > what would be the purpose of the Deploy Keys if they are not intended
 > to avoid the downside of machine-users I mentionned ?
-> 
-> All the best,
