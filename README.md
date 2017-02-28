@@ -119,7 +119,9 @@ Thanks for your time.
 > bot account creations are forbidden according to the link you gave
 > me).
 > 
-> - show quoted text -
+>> If your server needs to access multiple repositories, you can choose to create a new GitHub account and attach an SSH key that will be used exclusively for automation. Since this GitHub account won't be used by a human, it's called a machine user. You can then add the machine user as collaborator or add the machine user to a team with access to the repositories it needs to manipulate. Our team wrote more about this here:
+>> https://developer.github.com/guides/managing-deploy-keys/#machine-users
+>> Would such an approach using machine users work for you? If not, could you tell us more about why that wouldn't work for your use case? Any information there would help. Thanks Alexis!
 > 
 > 
 > Well, that's what I itended to do if you didn't come up with another solution.
